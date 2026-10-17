@@ -2,6 +2,12 @@
 
 A browser app for automatically detecting and hiding faces in photos and videos. It uses MediaPipe Face Detector with two bundled BlazeFace models. Files are processed on your device and are not uploaded by this app.
 
+## UI Preview
+
+Source-generated UI preview of the default upload interface, reconstructed from the UI source and styles. This is not an actual application screenshot.
+
+![Faceveil source-generated UI preview](docs/screenshots/main-interface.png)
+
 ## Run in VS Code
 
 1. Extract this folder and open `faceveil` in VS Code.
