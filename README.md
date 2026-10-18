@@ -14,6 +14,12 @@ A browser app for automatically detecting and hiding faces in photos and videos.
 - Process video frames and add fixed redaction areas.
 - Export edited photos and videos locally, subject to browser codec support.
 
+## UI Preview
+
+Source-generated UI preview of the default upload interface, reconstructed from the UI source and styles. This is not an actual application screenshot.
+
+![Faceveil source-generated UI preview](docs/screenshots/main-interface.png)
+
 ## Technologies
 
 TypeScript, React, Vite, MediaPipe Tasks Vision, Canvas, MediaRecorder, and Capacitor for Android.
