@@ -2,6 +2,14 @@
 
 Browser-based photo and video face redaction using MediaPipe, with editable detection areas and local export.
 
+[Open Faceveil](https://scryingorb.github.io/Faceveil/)
+
+## Web deployment
+
+GitHub Actions builds and publishes the web app to GitHub Pages on every push to `main`. You can also run **Deploy to GitHub Pages** manually from the repository's **Actions** tab. The workflow uses Node.js 22, installs the locked dependencies with `npm ci`, and publishes only the `dist` build output.
+
+The repository's **Settings → Pages → Source** is **GitHub Actions**. Vite's relative asset paths support the `/Faceveil/` project URL and the bundled Android app.
+
 ## Overview
 
 A browser app for automatically detecting and hiding faces in photos and videos. It uses MediaPipe Face Detector with two bundled BlazeFace models. Files are processed on your device and are not uploaded by this app.
